@@ -1,0 +1,50 @@
+{
+  "name": "AirShare",
+  "version": "0.1.0",
+  "summary": "Bluetooth LE / Multipeer data sharing library",
+  "homepage": "https://github.com/chrisballinger/AirShare",
+  "license": "MPLv2",
+  "authors": {
+    "Chris Ballinger": "chris@chatsecure.org"
+  },
+  "source": {
+    "git": "https://github.com/chrisballinger/AirShare.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/ChatSecure",
+  "platforms": {
+    "ios": "7.0",
+    "osx": "10.8"
+  },
+  "requires_arc": true,
+  "default_subspecs": "AirShare",
+  "dependencies": {
+    "libsodium": [
+
+    ],
+    "CocoaLumberjack": [
+      "~> 1.9"
+    ],
+    "PureLayout": [
+      "~> 2.0"
+    ]
+  },
+  "frameworks": "CoreBluetooth",
+  "subspecs": [
+    {
+      "name": "AirShare",
+      "source_files": "AirShare/*.{h,m}"
+    },
+    {
+      "name": "UIKit",
+      "ios": {
+        "source_files": "AirShare/UIKit/*.{h,m}"
+      },
+      "dependencies": {
+        "AirShare/AirShare": [
+
+        ]
+      }
+    }
+  ]
+}

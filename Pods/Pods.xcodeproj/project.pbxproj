@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580C8CC1099605C22D8A2333009F2229 /* Pods-iMesh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C42CEB6AFC8C0399644D52FDC258C1EF /* Pods-iMesh-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A012EBFE0CB288FE90D6E9C95DFA0A0D /* Pods-iMesh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAC4DEA43EB6E62C8F6D264D28F64E /* Pods-iMesh-dummy.m */; };
+		C53C5770D0775494EAAF6C2352E4B6FB /* ISEmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E9D01614ECD5818026AFA70DA8B82B9 /* ISEmojiList.plist */; };
+		DF49802FBAD0A5316DBBB0BD58DDBB71 /* ISEmojiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 768AD092A8A3202A59224D2B01585AE3 /* ISEmojiView-dummy.m */; };
+		DFF1CF996D9FD6BD8109C7B2B2611E60 /* ISEmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361AE22E9B91B549ECA496498EBAF1EF /* ISEmojiView.swift */; };
+		F4AAC8D52FC75D1FD97F36CCE47B0689 /* ISEmojiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 830BA62EF4164EBFD2B498D086299ACF /* ISEmojiView-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9431708EC0E5141DAAD462AB51DFD35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20B2475772CCF700ACF2FC582BA49567;
+			remoteInfo = ISEmojiView;
+		};
+		BC49481FCE6263E8B362E4214A187C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5C510E76476073A094613BB09A1785E;
+			remoteInfo = "ISEmojiView-ISEmojiView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9D01614ECD5818026AFA70DA8B82B9 /* ISEmojiList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList.plist; path = Source/Assets/ISEmojiList.plist; sourceTree = "<group>"; };
+		17A011AB7505DE20ACDC752F2282E1C6 /* Pods-iMesh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iMesh.modulemap"; sourceTree = "<group>"; };
+		361AE22E9B91B549ECA496498EBAF1EF /* ISEmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISEmojiView.swift; path = Source/Classes/ISEmojiView.swift; sourceTree = "<group>"; };
+		4575252913861E32E3944EAF522DBEE4 /* libISEmojiView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libISEmojiView.a; path = libISEmojiView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B8510B3D793E2E5769CB5C7FE89038 /* ISEmojiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = ISEmojiView.modulemap; path = ../../Headers/Public/ISEmojiView/ISEmojiView.modulemap; sourceTree = "<group>"; };
+		5B75ACCA33105021ED95154D4A663408 /* Pods-iMesh-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMesh-resources.sh"; sourceTree = "<group>"; };
+		6004D7ADFC2F4AE70DBDB38951BAC64F /* ISEmojiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISEmojiView.xcconfig; sourceTree = "<group>"; };
+		6ADAB61D9F09DE1134EDCE99935B04C0 /* ResourceBundle-ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ISEmojiView-Info.plist"; sourceTree = "<group>"; };
+		6EFBB74F5C0E881437CDFD81E4773180 /* Pods-iMesh-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iMesh-acknowledgements.plist"; sourceTree = "<group>"; };
+		768AD092A8A3202A59224D2B01585AE3 /* ISEmojiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISEmojiView-dummy.m"; sourceTree = "<group>"; };
+		7DB765D044C7E384C7634A2B7DEDFA9C /* Pods-iMesh-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iMesh-frameworks.sh"; sourceTree = "<group>"; };
+		830BA62EF4164EBFD2B498D086299ACF /* ISEmojiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ISEmojiView-umbrella.h"; path = "../../Headers/Public/ISEmojiView/ISEmojiView-umbrella.h"; sourceTree = "<group>"; };
+		84DAC4DEA43EB6E62C8F6D264D28F64E /* Pods-iMesh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iMesh-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96928FA99C4B928BD92FDB807576BB7E /* Pods-iMesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMesh.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBD840A28393A0E3EBBB40A06A7FC83 /* ISEmojiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-prefix.pch"; sourceTree = "<group>"; };
+		C42CEB6AFC8C0399644D52FDC258C1EF /* Pods-iMesh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iMesh-umbrella.h"; sourceTree = "<group>"; };
+		ED048C93A9327BFC5F159EDA658A5455 /* ISEmojiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ISEmojiView.bundle; path = "ISEmojiView-ISEmojiView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD71E73433D0D7435741B12F4339579 /* libPods-iMesh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iMesh.a"; path = "libPods-iMesh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17E535C3F5F64682F099A1BB36FBE54 /* Pods-iMesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iMesh.release.xcconfig"; sourceTree = "<group>"; };
+		FD6AC14321955FA059FF8210DF171B03 /* Pods-iMesh-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iMesh-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E3790C96425F16ACE2061AACEAC6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E6889D1E9FCAF1EB3FE503F00F5F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB69D7A7ADD37F6C0942BF14D0E838DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		356070D57DD80E992A03D640D7CEAFE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5CCBC6E11BF247F4D2B3DDC0BC1805A /* Pods-iMesh */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DC502BAEE9E772743ECF8F317E469F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D534DA31ACEC28FD4C482C0D2B52D73 /* ISEmojiView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				6DC502BAEE9E772743ECF8F317E469F8 /* Pods */,
+				BBF9961E9221E36F1C783393EBCB0BFC /* Products */,
+				356070D57DD80E992A03D640D7CEAFE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D534DA31ACEC28FD4C482C0D2B52D73 /* ISEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				361AE22E9B91B549ECA496498EBAF1EF /* ISEmojiView.swift */,
+				DE9A808FD5D0A4FE2764793970273A5A /* Resources */,
+				D7F039FB1EEE0E1B9BB422A9309BFB10 /* Support Files */,
+			);
+			name = ISEmojiView;
+			path = ISEmojiView;
+			sourceTree = "<group>";
+		};
+		BBF9961E9221E36F1C783393EBCB0BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED048C93A9327BFC5F159EDA658A5455 /* ISEmojiView.bundle */,
+				4575252913861E32E3944EAF522DBEE4 /* libISEmojiView.a */,
+				EFD71E73433D0D7435741B12F4339579 /* libPods-iMesh.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5CCBC6E11BF247F4D2B3DDC0BC1805A /* Pods-iMesh */ = {
+			isa = PBXGroup;
+			children = (
+				17A011AB7505DE20ACDC752F2282E1C6 /* Pods-iMesh.modulemap */,
+				FD6AC14321955FA059FF8210DF171B03 /* Pods-iMesh-acknowledgements.markdown */,
+				6EFBB74F5C0E881437CDFD81E4773180 /* Pods-iMesh-acknowledgements.plist */,
+				84DAC4DEA43EB6E62C8F6D264D28F64E /* Pods-iMesh-dummy.m */,
+				7DB765D044C7E384C7634A2B7DEDFA9C /* Pods-iMesh-frameworks.sh */,
+				5B75ACCA33105021ED95154D4A663408 /* Pods-iMesh-resources.sh */,
+				C42CEB6AFC8C0399644D52FDC258C1EF /* Pods-iMesh-umbrella.h */,
+				96928FA99C4B928BD92FDB807576BB7E /* Pods-iMesh.debug.xcconfig */,
+				F17E535C3F5F64682F099A1BB36FBE54 /* Pods-iMesh.release.xcconfig */,
+			);
+			name = "Pods-iMesh";
+			path = "Target Support Files/Pods-iMesh";
+			sourceTree = "<group>";
+		};
+		D7F039FB1EEE0E1B9BB422A9309BFB10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51B8510B3D793E2E5769CB5C7FE89038 /* ISEmojiView.modulemap */,
+				6004D7ADFC2F4AE70DBDB38951BAC64F /* ISEmojiView.xcconfig */,
+				768AD092A8A3202A59224D2B01585AE3 /* ISEmojiView-dummy.m */,
+				BDBD840A28393A0E3EBBB40A06A7FC83 /* ISEmojiView-prefix.pch */,
+				830BA62EF4164EBFD2B498D086299ACF /* ISEmojiView-umbrella.h */,
+				6ADAB61D9F09DE1134EDCE99935B04C0 /* ResourceBundle-ISEmojiView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISEmojiView";
+			sourceTree = "<group>";
+		};
+		DE9A808FD5D0A4FE2764793970273A5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E9D01614ECD5818026AFA70DA8B82B9 /* ISEmojiList.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A17523AC3A9EBA9347CBF5BABF700B6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4AAC8D52FC75D1FD97F36CCE47B0689 /* ISEmojiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F465741369D6A407B2CE0DB3FE063116 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580C8CC1099605C22D8A2333009F2229 /* Pods-iMesh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20B2475772CCF700ACF2FC582BA49567 /* ISEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9446F2054D012C85BC26E98DE9EF3F05 /* Build configuration list for PBXNativeTarget "ISEmojiView" */;
+			buildPhases = (
+				374ABED895153CCB22C6502DB24850FC /* Sources */,
+				BB69D7A7ADD37F6C0942BF14D0E838DC /* Frameworks */,
+				A17523AC3A9EBA9347CBF5BABF700B6B /* Headers */,
+				A7CBC3ED144D38BABDFFBCA89F6B129F /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2152973450C1E74BA320DACC31AF22C6 /* PBXTargetDependency */,
+			);
+			name = ISEmojiView;
+			productName = ISEmojiView;
+			productReference = 4575252913861E32E3944EAF522DBEE4 /* libISEmojiView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B5C510E76476073A094613BB09A1785E /* ISEmojiView-ISEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2D4942006CB8D2A781487F4E397C0D /* Build configuration list for PBXNativeTarget "ISEmojiView-ISEmojiView" */;
+			buildPhases = (
+				B5A7E8B65765A9C11780B7400C5C1479 /* Sources */,
+				00E3790C96425F16ACE2061AACEAC6AE /* Frameworks */,
+				07A01E04354CD308AAC17B0C605C443E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISEmojiView-ISEmojiView";
+			productName = "ISEmojiView-ISEmojiView";
+			productReference = ED048C93A9327BFC5F159EDA658A5455 /* ISEmojiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E040D8DC32BD6A325E7D4892EB26A9B2 /* Pods-iMesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EDFA699166A18900A955FE2A778776 /* Build configuration list for PBXNativeTarget "Pods-iMesh" */;
+			buildPhases = (
+				C68D02336EDBB5F563976A5825885260 /* Sources */,
+				42E6889D1E9FCAF1EB3FE503F00F5F5A /* Frameworks */,
+				F465741369D6A407B2CE0DB3FE063116 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B5A2F9AC870C67D66BAA21F0910EF46 /* PBXTargetDependency */,
+			);
+			name = "Pods-iMesh";
+			productName = "Pods-iMesh";
+			productReference = EFD71E73433D0D7435741B12F4339579 /* libPods-iMesh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BBF9961E9221E36F1C783393EBCB0BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20B2475772CCF700ACF2FC582BA49567 /* ISEmojiView */,
+				B5C510E76476073A094613BB09A1785E /* ISEmojiView-ISEmojiView */,
+				E040D8DC32BD6A325E7D4892EB26A9B2 /* Pods-iMesh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A01E04354CD308AAC17B0C605C443E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53C5770D0775494EAAF6C2352E4B6FB /* ISEmojiList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7CBC3ED144D38BABDFFBCA89F6B129F /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ISEmojiView/ISEmojiView.modulemap",
+				"${PODS_ROOT}/Headers/Public/ISEmojiView/ISEmojiView-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ISEmojiView-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ISEmojiView/ISEmojiView.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ISEmojiView/ISEmojiView-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374ABED895153CCB22C6502DB24850FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF49802FBAD0A5316DBBB0BD58DDBB71 /* ISEmojiView-dummy.m in Sources */,
+				DFF1CF996D9FD6BD8109C7B2B2611E60 /* ISEmojiView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A7E8B65765A9C11780B7400C5C1479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68D02336EDBB5F563976A5825885260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A012EBFE0CB288FE90D6E9C95DFA0A0D /* Pods-iMesh-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2152973450C1E74BA320DACC31AF22C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ISEmojiView-ISEmojiView";
+			target = B5C510E76476073A094613BB09A1785E /* ISEmojiView-ISEmojiView */;
+			targetProxy = BC49481FCE6263E8B362E4214A187C94 /* PBXContainerItemProxy */;
+		};
+		9B5A2F9AC870C67D66BAA21F0910EF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISEmojiView;
+			target = 20B2475772CCF700ACF2FC582BA49567 /* ISEmojiView */;
+			targetProxy = 9431708EC0E5141DAAD462AB51DFD35A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		21245B4FF592C7EF53A209F1AD5C9935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6004D7ADFC2F4AE70DBDB38951BAC64F /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ResourceBundle-ISEmojiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		484A7DA530FB60847E052B1C86D72AF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6004D7ADFC2F4AE70DBDB38951BAC64F /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ISEmojiView/ISEmojiView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ISEmojiView/ISEmojiView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ISEmojiView;
+				PRODUCT_NAME = ISEmojiView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		627790C7AEA479C3BE83702E67DF2FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96928FA99C4B928BD92FDB807576BB7E /* Pods-iMesh.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMesh/Pods-iMesh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA6205B5C85C63E624F56B38A2101591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6004D7ADFC2F4AE70DBDB38951BAC64F /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ISEmojiView/ISEmojiView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/ISEmojiView/ISEmojiView.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ISEmojiView;
+				PRODUCT_NAME = ISEmojiView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE48B87375553839F7BDD9258C5042D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17E535C3F5F64682F099A1BB36FBE54 /* Pods-iMesh.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iMesh/Pods-iMesh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0E653911A0550E8A24656B671B69FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6004D7ADFC2F4AE70DBDB38951BAC64F /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ResourceBundle-ISEmojiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EDFA699166A18900A955FE2A778776 /* Build configuration list for PBXNativeTarget "Pods-iMesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627790C7AEA479C3BE83702E67DF2FF6 /* Debug */,
+				DE48B87375553839F7BDD9258C5042D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9446F2054D012C85BC26E98DE9EF3F05 /* Build configuration list for PBXNativeTarget "ISEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484A7DA530FB60847E052B1C86D72AF6 /* Debug */,
+				DA6205B5C85C63E624F56B38A2101591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2D4942006CB8D2A781487F4E397C0D /* Build configuration list for PBXNativeTarget "ISEmojiView-ISEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21245B4FF592C7EF53A209F1AD5C9935 /* Debug */,
+				F0E653911A0550E8A24656B671B69FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

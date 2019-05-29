@@ -1,0 +1,6 @@
+module Pods_iMesh {
+  umbrella header "Pods-iMesh-umbrella.h"
+
+  export *
+  module * { export * }
+}

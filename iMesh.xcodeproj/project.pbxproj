@@ -7,21 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14423B4BAF4B621852DFCEEF /* libPods-iMesh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D086FF7BA867411E7EBC3B69 /* libPods-iMesh.a */; };
+		273869F120D3BCD400A74D1E /* libISEmojiView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 273869F020D3BCD400A74D1E /* libISEmojiView.a */; };
+		2742185320D3CD4200DBE3C6 /* UnderdarkAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742185220D3CD4200DBE3C6 /* UnderdarkAppModel.swift */; };
+		2742185520D3CD7900DBE3C6 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742185420D3CD7900DBE3C6 /* Node.swift */; };
+		2766C83F20CC57350006555B /* ChatSeviceManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766C83E20CC57350006555B /* ChatSeviceManage.swift */; };
+		278FA70820D3B7F500A30060 /* UnderdarkServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278FA70720D3B7F500A30060 /* UnderdarkServiceManager.swift */; };
+		278FA70E20D3BAAB00A30060 /* Underdark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA70C20D3BAAB00A30060 /* Underdark.framework */; };
+		278FA70F20D3BAAB00A30060 /* Underdark.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA70C20D3BAAB00A30060 /* Underdark.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		278FA71020D3BAAB00A30060 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA70D20D3BAAB00A30060 /* ProtocolBuffers.framework */; };
+		278FA71120D3BAAB00A30060 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 278FA70D20D3BAAB00A30060 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2794521520C50F1400D5D59E /* ChatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794521420C50F1400D5D59E /* ChatModels.swift */; };
 		27AD114520C1AB03004F3586 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD114420C1AB03004F3586 /* AppDelegate.swift */; };
-		27AD114720C1AB03004F3586 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD114620C1AB03004F3586 /* ViewController.swift */; };
+		27AD114720C1AB03004F3586 /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD114620C1AB03004F3586 /* FrequencyViewController.swift */; };
 		27AD114A20C1AB03004F3586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AD114820C1AB03004F3586 /* Main.storyboard */; };
 		27AD114C20C1AB03004F3586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AD114B20C1AB03004F3586 /* Assets.xcassets */; };
 		27AD114F20C1AB03004F3586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AD114D20C1AB03004F3586 /* LaunchScreen.storyboard */; };
+		27AD117720C2EFAD004F3586 /* SearchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD117620C2EFAD004F3586 /* SearchingViewController.swift */; };
+		27AD117920C2F0BC004F3586 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD117820C2F0BC004F3586 /* Extensions.swift */; };
+		27AD117B20C3D5D1004F3586 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD117A20C3D5D1004F3586 /* ChatViewController.swift */; };
+		27AD117D20C46B42004F3586 /* MyMSGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD117C20C46B42004F3586 /* MyMSGTableViewCell.swift */; };
+		27AD118120C46B69004F3586 /* YourMSGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AD118020C46B69004F3586 /* YourMSGTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		273869F420D3BCDB00A74D1E /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278FA71220D3BAAB00A30060 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				278FA71120D3BAAB00A30060 /* ProtocolBuffers.framework in Embed Frameworks */,
+				278FA70F20D3BAAB00A30060 /* Underdark.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		273869F020D3BCD400A74D1E /* libISEmojiView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libISEmojiView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2742185220D3CD4200DBE3C6 /* UnderdarkAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderdarkAppModel.swift; sourceTree = "<group>"; };
+		2742185420D3CD7900DBE3C6 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		2754097B20D64844005A06AE /* libDSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2766C83E20CC57350006555B /* ChatSeviceManage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatSeviceManage.swift; sourceTree = "<group>"; };
+		278FA70720D3B7F500A30060 /* UnderdarkServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderdarkServiceManager.swift; sourceTree = "<group>"; };
+		278FA70C20D3BAAB00A30060 /* Underdark.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Underdark.framework; path = underdark/Underdark/Underdark.framework; sourceTree = "<group>"; };
+		278FA70D20D3BAAB00A30060 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = underdark/Underdark/ProtocolBuffers.framework; sourceTree = "<group>"; };
+		2794521420C50F1400D5D59E /* ChatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModels.swift; sourceTree = "<group>"; };
 		27AD114120C1AB03004F3586 /* iMesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AD114420C1AB03004F3586 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27AD114620C1AB03004F3586 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27AD114620C1AB03004F3586 /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
 		27AD114920C1AB03004F3586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27AD114B20C1AB03004F3586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27AD114E20C1AB03004F3586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27AD115020C1AB03004F3586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AD117620C2EFAD004F3586 /* SearchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingViewController.swift; sourceTree = "<group>"; };
+		27AD117820C2F0BC004F3586 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		27AD117A20C3D5D1004F3586 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		27AD117C20C46B42004F3586 /* MyMSGTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMSGTableViewCell.swift; sourceTree = "<group>"; };
+		27AD118020C46B69004F3586 /* YourMSGTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourMSGTableViewCell.swift; sourceTree = "<group>"; };
+		37FEA12CCBF5BEE539B638C5 /* Pods-iMesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMesh.release.xcconfig"; path = "Pods/Target Support Files/Pods-iMesh/Pods-iMesh.release.xcconfig"; sourceTree = "<group>"; };
+		C13170E8D175FB202C012100 /* Pods-iMesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iMesh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iMesh/Pods-iMesh.debug.xcconfig"; sourceTree = "<group>"; };
+		D086FF7BA867411E7EBC3B69 /* libPods-iMesh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iMesh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +87,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273869F120D3BCD400A74D1E /* libISEmojiView.a in Frameworks */,
+				14423B4BAF4B621852DFCEEF /* libPods-iMesh.a in Frameworks */,
+				278FA71020D3BAAB00A30060 /* ProtocolBuffers.framework in Frameworks */,
+				278FA70E20D3BAAB00A30060 /* Underdark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2742185120D3CB5000DBE3C6 /* Underdark */ = {
+			isa = PBXGroup;
+			children = (
+				278FA70720D3B7F500A30060 /* UnderdarkServiceManager.swift */,
+				2742185220D3CD4200DBE3C6 /* UnderdarkAppModel.swift */,
+				2742185420D3CD7900DBE3C6 /* Node.swift */,
+			);
+			path = Underdark;
+			sourceTree = "<group>";
+		};
 		27AD113820C1AB03004F3586 = {
 			isa = PBXGroup;
 			children = (
+				278FA70D20D3BAAB00A30060 /* ProtocolBuffers.framework */,
+				278FA70C20D3BAAB00A30060 /* Underdark.framework */,
 				27AD114320C1AB03004F3586 /* iMesh */,
 				27AD114220C1AB03004F3586 /* Products */,
+				7B787A76E50064D4A71678B7 /* Frameworks */,
+				B458C52B116F07EE72C61174 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +130,41 @@
 		27AD114320C1AB03004F3586 /* iMesh */ = {
 			isa = PBXGroup;
 			children = (
+				27AD118020C46B69004F3586 /* YourMSGTableViewCell.swift */,
 				27AD114420C1AB03004F3586 /* AppDelegate.swift */,
-				27AD114620C1AB03004F3586 /* ViewController.swift */,
+				27AD114620C1AB03004F3586 /* FrequencyViewController.swift */,
+				27AD117C20C46B42004F3586 /* MyMSGTableViewCell.swift */,
+				27AD117A20C3D5D1004F3586 /* ChatViewController.swift */,
+				2794521420C50F1400D5D59E /* ChatModels.swift */,
 				27AD114820C1AB03004F3586 /* Main.storyboard */,
+				27AD117820C2F0BC004F3586 /* Extensions.swift */,
+				27AD117620C2EFAD004F3586 /* SearchingViewController.swift */,
 				27AD114B20C1AB03004F3586 /* Assets.xcassets */,
 				27AD114D20C1AB03004F3586 /* LaunchScreen.storyboard */,
 				27AD115020C1AB03004F3586 /* Info.plist */,
+				2766C83E20CC57350006555B /* ChatSeviceManage.swift */,
+				2742185120D3CB5000DBE3C6 /* Underdark */,
 			);
 			path = iMesh;
+			sourceTree = "<group>";
+		};
+		7B787A76E50064D4A71678B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2754097B20D64844005A06AE /* libDSON.a */,
+				273869F020D3BCD400A74D1E /* libISEmojiView.a */,
+				D086FF7BA867411E7EBC3B69 /* libPods-iMesh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B458C52B116F07EE72C61174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C13170E8D175FB202C012100 /* Pods-iMesh.debug.xcconfig */,
+				37FEA12CCBF5BEE539B638C5 /* Pods-iMesh.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +174,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27AD115320C1AB03004F3586 /* Build configuration list for PBXNativeTarget "iMesh" */;
 			buildPhases = (
+				11A7AB63652D666B1574C4F5 /* [CP] Check Pods Manifest.lock */,
 				27AD113D20C1AB03004F3586 /* Sources */,
 				27AD113E20C1AB03004F3586 /* Frameworks */,
 				27AD113F20C1AB03004F3586 /* Resources */,
+				575B1E9E4BA280E720B37B3D /* [CP] Copy Pods Resources */,
+				278FA71220D3BAAB00A30060 /* Embed Frameworks */,
+				273869F420D3BCDB00A74D1E /* Embed PlugIns */,
 			);
 			buildRules = (
 			);
@@ -131,13 +238,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11A7AB63652D666B1574C4F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iMesh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575B1E9E4BA280E720B37B3D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iMesh/Pods-iMesh-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ISEmojiView/ISEmojiView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ISEmojiView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iMesh/Pods-iMesh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27AD113D20C1AB03004F3586 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AD114720C1AB03004F3586 /* ViewController.swift in Sources */,
+				27AD118120C46B69004F3586 /* YourMSGTableViewCell.swift in Sources */,
+				2742185320D3CD4200DBE3C6 /* UnderdarkAppModel.swift in Sources */,
+				27AD117720C2EFAD004F3586 /* SearchingViewController.swift in Sources */,
+				2742185520D3CD7900DBE3C6 /* Node.swift in Sources */,
+				27AD114720C1AB03004F3586 /* FrequencyViewController.swift in Sources */,
 				27AD114520C1AB03004F3586 /* AppDelegate.swift in Sources */,
+				27AD117D20C46B42004F3586 /* MyMSGTableViewCell.swift in Sources */,
+				2794521520C50F1400D5D59E /* ChatModels.swift in Sources */,
+				278FA70820D3B7F500A30060 /* UnderdarkServiceManager.swift in Sources */,
+				2766C83F20CC57350006555B /* ChatSeviceManage.swift in Sources */,
+				27AD117B20C3D5D1004F3586 /* ChatViewController.swift in Sources */,
+				27AD117920C2F0BC004F3586 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +369,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -272,12 +428,16 @@
 		};
 		27AD115420C1AB03004F3586 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13170E8D175FB202C012100 /* Pods-iMesh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E92KT6QL4D;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/underdark/Underdark";
 				INFOPLIST_FILE = iMesh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = ir.iauctb.iMesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -287,11 +447,14 @@
 		};
 		27AD115520C1AB03004F3586 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FEA12CCBF5BEE539B638C5 /* Pods-iMesh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E92KT6QL4D;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/underdark/Underdark";
 				INFOPLIST_FILE = iMesh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ir.iauctb.iMesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
